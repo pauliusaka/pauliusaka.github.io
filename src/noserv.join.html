@@ -64,7 +64,7 @@ var addMSG = function(msg, who) {
   var ctx = canvas.getContext("2d");
   var image = new Image();
   image.onload = function() {
-    ctx.drawImage(image, 0, 0, 200, 200);
+    ctx.drawImage(image, 0, 0);
   };
   image.src = msg;
   
